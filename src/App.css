@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+:root {
+  --bg-transition: background-color 0.5s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+}
